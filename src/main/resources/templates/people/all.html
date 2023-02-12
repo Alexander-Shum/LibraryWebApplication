@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>All People</title>
+</head>
+<body>
+<div th:each="person : ${people}">
+	<a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getFirstName() + ' ' + person.getMiddleName() + ' '+ person.getLastName() + ', ' + person.getYearBorn()}">user</a>
+	
+</div>
+
+<br/>
+<hr/>
+
+<a href="/people/new">Добавить человка</a>
+
+</body>
+</html>
