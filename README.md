@@ -1,10 +1,8 @@
 # LibraryWebApplication
-Web Application (Spring Boot + Spring MVC + Hibernate + JPA + PostgreSQL)
+Web Application (Spring Boot + Spring MVC + JPA + Hibernate + PostgreSQL)
 
 <h2>Онлайн библиотека с цифровым учетом книг.</h2>
-Функционал: добавление читателей и книг, возможность выдавать книги и освобождать, поиск книг по названию, проверка просрочки.
 
----
 ###  Скриншоты:
 
 <p align="middle">
